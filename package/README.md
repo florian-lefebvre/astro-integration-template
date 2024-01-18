@@ -1,4 +1,4 @@
-# `packageName`
+# `package-name`
 
 This is an [Astro integration](https://docs.astro.build/en/guides/integrations-guide/) that TODO:description
 
@@ -13,15 +13,15 @@ TODO:
 Install the integration **automatically** using the Astro CLI:
 
 ```bash
-pnpm astro add packageName
+pnpm astro add package-name
 ```
 
 ```bash
-npm astro add packageName
+npm astro add package-name
 ```
 
 ```bash
-yarn astro add packageName
+yarn astro add package-name
 ```
 
 Or install it **manually**:
@@ -29,21 +29,21 @@ Or install it **manually**:
 1. Install the required dependencies
 
 ```bash
-pnpm add packageName
+pnpm add package-name
 ```
 
 ```bash
-npm install packageName
+npm install package-name
 ```
 
 ```bash
-yarn add packageName
+yarn add package-name
 ```
 
 2. Add the integration to your astro config
 
 ```diff
-+import integration from "packageName";
++import integration from "package-name";
 
 export default defineConfig({
   integrations: [

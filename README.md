@@ -1,4 +1,4 @@
-# packageName
+# package-name
 
 TODO:description
 
