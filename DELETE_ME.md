@@ -9,6 +9,7 @@
   - [ ] JSDoc
   - [ ] Package README
 - [ ] Format/lint (`pnpm lint:fix`)
+- [ ] Setup GitHub repository
 - [ ] Release (see below)
 - [ ] Share!
 
