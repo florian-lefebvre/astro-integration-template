@@ -21,8 +21,8 @@ importers:
         specifier: ^4.0.0
         version: 4.1.2
       astro-integration-kit:
-        specifier: ^0.0.9
-        version: 0.0.9(astro@4.1.2)
+        specifier: ^0.0.12
+        version: 0.0.12(astro@4.1.2)
 
   playground:
     dependencies:
@@ -1401,8 +1401,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /astro-integration-kit@0.0.9(astro@4.1.2):
-    resolution: {integrity: sha512-ke9pFCX66TUJy03K4u6xqebAo0CWewZkMyG3nFeDXRg5trT3oYPQLU2MRnvPu1Hw3q/i4L3TymkIw88T+TV2ow==}
+  /astro-integration-kit@0.0.12(astro@4.1.2):
+    resolution: {integrity: sha512-ARlLyX9FTf8GTw4aK8eqiR+3kF3Ig+npn3WC4l2FDKwfSZqt0DZx7MqCAUOgKitroBAEegyaMIhCUWzlofcZQA==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
