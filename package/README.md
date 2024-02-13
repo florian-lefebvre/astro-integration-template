@@ -17,7 +17,7 @@ pnpm astro add package-name
 ```
 
 ```bash
-npm astro add package-name
+npx astro add package-name
 ```
 
 ```bash
