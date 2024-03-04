@@ -21,8 +21,8 @@ importers:
         specifier: ^4.0.0
         version: 4.1.2
       astro-integration-kit:
-        specifier: ^0.4.0
-        version: 0.4.0(astro@4.1.2)
+        specifier: ^0.5.0
+        version: 0.5.0(astro@4.1.2)
 
   playground:
     dependencies:
@@ -1415,8 +1415,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /astro-integration-kit@0.4.0(astro@4.1.2):
-    resolution: {integrity: sha512-idgFQySnNnmccwjJ90FS51l3/U3RfKMb9RHT3St67iW8R5BJw+ZQl44n9HHAwT5k1uwS1wFTpCR0WKI5HiLe4Q==}
+  /astro-integration-kit@0.5.0(astro@4.1.2):
+    resolution: {integrity: sha512-RbviqerotzLoVBGF8L1aFw5jIP40oWKScRXuzJNp399uDnPMPq7/cIh2x3MIS62U17h7o3d0S3kGt/Ael+tj1g==}
     peerDependencies:
       '@vitejs/plugin-react': ^4.2.1
       astro: ^4.4.1
