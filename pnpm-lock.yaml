@@ -31,7 +31,7 @@ importers:
         version: 5.1.0(astro@4.5.5)(tailwindcss@3.4.1)
       astro:
         specifier: ^4.5.5
-        version: 4.5.5(@types/node@20.11.25)(typescript@5.4.2)
+        version: 4.5.5(@types/node@20.11.28)(typescript@5.4.2)
       package-name:
         specifier: workspace:*
         version: link:../package
@@ -43,8 +43,8 @@ importers:
         specifier: ^0.5.9
         version: 0.5.9(typescript@5.4.2)
       '@types/node':
-        specifier: ^20.11.25
-        version: 20.11.25
+        specifier: ^20.11.28
+        version: 20.11.28
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
@@ -187,7 +187,7 @@ packages:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.5.5(@types/node@20.11.25)(typescript@5.4.2)
+      astro: 4.5.5(@types/node@20.11.28)(typescript@5.4.2)
       autoprefixer: 10.4.16(postcss@8.4.33)
       postcss: 8.4.33
       postcss-load-config: 4.0.2(postcss@8.4.33)
@@ -1199,8 +1199,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node@20.11.25:
-    resolution: {integrity: sha512-TBHyJxk2b7HceLVGFcpAUjsa5zIdsPWlR6XHfyGzd0SFu+/NFgQgMAl96MSDZgQDvJAvV6BKsFOrt6zIL09JDw==}
+  /@types/node@20.11.28:
+    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1541,7 +1541,7 @@ packages:
       - typescript
     dev: false
 
-  /astro@4.5.5(@types/node@20.11.25)(typescript@5.4.2):
+  /astro@4.5.5(@types/node@20.11.28)(typescript@5.4.2):
     resolution: {integrity: sha512-gZ3jR06dLmY9/SMkKMr+3pRSrUjhuwjnXt+9abFJV3WGwhCnLZbSNsTBrLMsaFHpAS1ReJChcTWyKRCvs/jCIQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
@@ -1602,7 +1602,7 @@ packages:
       tsconfck: 3.0.1(typescript@5.4.2)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.1.4(@types/node@20.11.25)
+      vite: 5.1.4(@types/node@20.11.28)
       vitefu: 0.2.5(vite@5.1.4)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
@@ -5379,7 +5379,7 @@ packages:
       fsevents: 2.3.3
     dev: false
 
-  /vite@5.1.4(@types/node@20.11.25):
+  /vite@5.1.4(@types/node@20.11.28):
     resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5407,7 +5407,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.25
+      '@types/node': 20.11.28
       esbuild: 0.19.11
       postcss: 8.4.35
       rollup: 4.9.5
@@ -5434,7 +5434,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.1.4(@types/node@20.11.25)
+      vite: 5.1.4(@types/node@20.11.28)
     dev: false
 
   /volar-service-css@0.0.34(@volar/language-service@2.1.2):
