@@ -29,6 +29,6 @@
     "astro": "^4.0.0"
   },
   "dependencies": {
-    "astro-integration-kit": "^0.5.1"
+    "astro-integration-kit": "^0.6.0"
   }
 }
