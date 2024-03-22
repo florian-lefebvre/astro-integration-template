@@ -69,6 +69,12 @@ Install dependencies using pnpm:
 pnpm i --frozen-lockfile
 ```
 
+Watch for package changes:
+
+```bash
+pnpm package:dev
+```
+
 Start the playground:
 
 ```bash
