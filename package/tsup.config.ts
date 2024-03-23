@@ -8,7 +8,7 @@ export default defineConfig((options) => {
 		format: ["esm"],
 		target: "node18",
 		bundle: true,
-		// dts: true,
+		dts: true,
 		sourcemap: true,
 		clean: true,
 		splitting: false,
