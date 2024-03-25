@@ -1,8 +1,8 @@
-import type { AstroIntegration } from "astro";
+import { defineIntegration } from "astro-integration-kit";
 
-export const integration = (): AstroIntegration => {
-	return {
-		name: "package-name",
-		hooks: {},
-	};
-};
+export const integration = defineIntegration({
+	name: "package-name",
+	setup() {
+		return {};
+	},
+});

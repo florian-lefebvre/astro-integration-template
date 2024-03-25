@@ -6,6 +6,7 @@
 		"node": ">=18.19.0"
 	},
 	"scripts": {
+		"package:dev": "pnpm --filter package-name dev",
 		"playground:dev": "pnpm --filter playground dev",
 		"changeset": "changeset",
 		"release": "node scripts/release.mjs",
