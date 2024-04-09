@@ -22,8 +22,8 @@
 	"sideEffects": false,
 	"exports": {
 		".": {
-			"types": "./dist/index.d.ts",
-			"default": "./dist/index.js"
+			"types": "./dist/integration.d.ts",
+			"default": "./dist/integration.js"
 		}
 	},
 	"files": ["dist"],

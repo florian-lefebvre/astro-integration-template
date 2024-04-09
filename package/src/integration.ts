@@ -1,6 +1,6 @@
 import { defineIntegration } from "astro-integration-kit";
 
-export const integration = defineIntegration({
+export default defineIntegration({
 	name: "package-name",
 	setup() {
 		return {};
