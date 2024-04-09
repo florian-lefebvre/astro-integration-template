@@ -8,6 +8,7 @@
 	"scripts": {
 		"package:dev": "pnpm --filter package-name dev",
 		"playground:dev": "pnpm --filter playground dev",
+		"dev": "concurrently --kill-others \"pnpm --filter package-name dev\" \"pnpm --filter playground dev\"",
 		"changeset": "changeset",
 		"release": "node scripts/release.mjs",
 		"lint": "biome check .",
@@ -15,6 +16,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.6.4",
-		"@changesets/cli": "^2.27.1"
+		"@changesets/cli": "^2.27.1",
+		"concurrently": "^8.2.2"
 	}
 }
