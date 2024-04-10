@@ -69,16 +69,10 @@ Install dependencies using pnpm:
 pnpm i --frozen-lockfile
 ```
 
-Watch for package changes:
+Start the playground and package watcher:
 
 ```bash
-pnpm package:dev
-```
-
-Start the playground:
-
-```bash
-pnpm playground:dev
+pnpm dev
 ```
 
 You can now edit files in `package`. Please note that making changes to those files may require restarting the playground dev server.
