@@ -21,8 +21,8 @@ importers:
         specifier: ^4.0.0
         version: 4.5.16(@types/node@20.12.7)(typescript@5.4.5)
       astro-integration-kit:
-        specifier: ^0.10.0
-        version: 0.10.0(astro@4.5.16)
+        specifier: ^0.11.0
+        version: 0.11.0(astro@4.5.16)
     devDependencies:
       tsup:
         specifier: ^8.0.2
@@ -37,8 +37,8 @@ importers:
         specifier: ^4.5.16
         version: 4.5.16(@types/node@20.12.7)(typescript@5.4.5)
       astro-integration-kit:
-        specifier: ^0.10.0
-        version: 0.10.0(astro@4.5.16)
+        specifier: ^0.11.0
+        version: 0.11.0(astro@4.5.16)
       package-name:
         specifier: workspace:*
         version: link:../package
@@ -1586,8 +1586,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /astro-integration-kit@0.10.0(astro@4.5.16):
-    resolution: {integrity: sha512-7S9nWamjNsAKIWoElehYfttQavcfyl6rI9Exyy+1gF7awzjL6VqkbZwdhwVxx8pHed25tUPo6UEXFotAwPhxAw==}
+  /astro-integration-kit@0.11.0(astro@4.5.16):
+    resolution: {integrity: sha512-P41igJUY63W6iWq6Rtw0FnERVUdJhkpAa9jothRQ+AXl56B/6PMes/jcYPo3Zr6KwlMPT8TOHMoasHL0CfqglQ==}
     peerDependencies:
       '@astrojs/db': ^0.9.0
       '@vitejs/plugin-react': ^4.2.1
