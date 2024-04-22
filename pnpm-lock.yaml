@@ -32,13 +32,13 @@ importers:
     dependencies:
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.6.1)(tailwindcss@3.4.3)
+        version: 5.1.0(astro@4.6.3)(tailwindcss@3.4.3)
       astro:
-        specifier: ^4.6.1
-        version: 4.6.1(@types/node@20.12.7)(typescript@5.4.5)
+        specifier: ^4.6.3
+        version: 4.6.3(@types/node@20.12.7)(typescript@5.4.5)
       astro-integration-kit:
         specifier: ^0.11.0
-        version: 0.11.0(astro@4.6.1)
+        version: 0.11.0(astro@4.6.3)
       package-name:
         specifier: workspace:*
         version: link:../package
@@ -191,13 +191,13 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.6.1)(tailwindcss@3.4.3):
+  /@astrojs/tailwind@5.1.0(astro@4.6.3)(tailwindcss@3.4.3):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.6.1(@types/node@20.12.7)(typescript@5.4.5)
+      astro: 4.6.3(@types/node@20.12.7)(typescript@5.4.5)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -1364,6 +1364,10 @@ packages:
       '@babel/types': 7.24.0
     dev: false
 
+  /@types/cookie@0.5.4:
+    resolution: {integrity: sha512-7z/eR6O859gyWIAjuvBWFzNURmf2oPBmJlfVWkwehU5nzIyjwBsTh7WMmEEV4JFnHuQ3ex4oyTvfKzcyJVDBNA==}
+    dev: false
+
   /@types/debug@4.1.12:
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
     dependencies:
@@ -1668,7 +1672,7 @@ packages:
       recast: 0.23.6
     dev: false
 
-  /astro-integration-kit@0.11.0(astro@4.6.1):
+  /astro-integration-kit@0.11.0(astro@4.6.3):
     resolution: {integrity: sha512-P41igJUY63W6iWq6Rtw0FnERVUdJhkpAa9jothRQ+AXl56B/6PMes/jcYPo3Zr6KwlMPT8TOHMoasHL0CfqglQ==}
     peerDependencies:
       '@astrojs/db': ^0.9.0
@@ -1698,7 +1702,7 @@ packages:
       vue:
         optional: true
     dependencies:
-      astro: 4.6.1(@types/node@20.12.7)(typescript@5.4.5)
+      astro: 4.6.3(@types/node@20.12.7)(typescript@5.4.5)
       pathe: 1.1.2
       recast: 0.23.6
     dev: false
@@ -1784,8 +1788,8 @@ packages:
       - typescript
     dev: false
 
-  /astro@4.6.1(@types/node@20.12.7)(typescript@5.4.5):
-    resolution: {integrity: sha512-gcL22NEhuRi4wu9/x5Kn2eJf7nT6GeU5BxdN6AHbUnX6UzEDIWtpgHs5lBIZYExKbHKN9PjEGXWQzQtFwLU+5g==}
+  /astro@4.6.3(@types/node@20.12.7)(typescript@5.4.5):
+    resolution: {integrity: sha512-p2zs1Gac+ysdc/yFCoc8pOXTZE5L9foAtmqUzUVL22WX68bYTRovd03GRs7J1MDpwzsl9kJtlK20ROpjyIFpNw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -1800,6 +1804,7 @@ packages:
       '@babel/traverse': 7.24.1
       '@babel/types': 7.24.0
       '@types/babel__core': 7.20.5
+      '@types/cookie': 0.5.4
       acorn: 8.11.3
       aria-query: 5.3.0
       axobject-query: 4.0.0
