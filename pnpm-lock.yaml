@@ -19,10 +19,10 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.5.16(@types/node@20.12.8)(typescript@5.4.5)
+        version: 4.5.16(@types/node@20.12.12)(typescript@5.4.5)
       astro-integration-kit:
         specifier: ^0.13.2
-        version: 0.13.2(astro@4.5.16(@types/node@20.12.8)(typescript@5.4.5))
+        version: 0.13.2(astro@4.5.16(@types/node@20.12.12)(typescript@5.4.5))
     devDependencies:
       tsup:
         specifier: ^8.0.2
@@ -32,13 +32,13 @@ importers:
     dependencies:
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.8.3(@types/node@20.12.8)(typescript@5.4.5))(tailwindcss@3.4.3)
+        version: 5.1.0(astro@4.8.3(@types/node@20.12.12)(typescript@5.4.5))(tailwindcss@3.4.3)
       astro:
         specifier: ^4.8.3
-        version: 4.8.3(@types/node@20.12.8)(typescript@5.4.5)
+        version: 4.8.3(@types/node@20.12.12)(typescript@5.4.5)
       astro-integration-kit:
         specifier: ^0.13.2
-        version: 0.13.2(astro@4.8.3(@types/node@20.12.8)(typescript@5.4.5))
+        version: 0.13.2(astro@4.8.3(@types/node@20.12.12)(typescript@5.4.5))
       package-name:
         specifier: workspace:*
         version: link:../package
@@ -50,8 +50,8 @@ importers:
         specifier: ^0.6.0
         version: 0.6.0(prettier@2.8.8)(typescript@5.4.5)
       '@types/node':
-        specifier: ^20.12.8
-        version: 20.12.8
+        specifier: ^20.12.12
+        version: 20.12.12
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -1089,8 +1089,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@20.12.8':
-    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
+  '@types/node@20.12.12':
+    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3676,9 +3676,9 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@5.1.0(astro@4.8.3(@types/node@20.12.8)(typescript@5.4.5))(tailwindcss@3.4.3)':
+  '@astrojs/tailwind@5.1.0(astro@4.8.3(@types/node@20.12.12)(typescript@5.4.5))(tailwindcss@3.4.3)':
     dependencies:
-      astro: 4.8.3(@types/node@20.12.8)(typescript@5.4.5)
+      astro: 4.8.3(@types/node@20.12.12)(typescript@5.4.5)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -4595,7 +4595,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@20.12.8':
+  '@types/node@20.12.12':
     dependencies:
       undici-types: 5.26.5
 
@@ -4743,19 +4743,19 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  astro-integration-kit@0.13.2(astro@4.5.16(@types/node@20.12.8)(typescript@5.4.5)):
+  astro-integration-kit@0.13.2(astro@4.5.16(@types/node@20.12.12)(typescript@5.4.5)):
     dependencies:
-      astro: 4.5.16(@types/node@20.12.8)(typescript@5.4.5)
+      astro: 4.5.16(@types/node@20.12.12)(typescript@5.4.5)
       pathe: 1.1.2
       recast: 0.23.6
 
-  astro-integration-kit@0.13.2(astro@4.8.3(@types/node@20.12.8)(typescript@5.4.5)):
+  astro-integration-kit@0.13.2(astro@4.8.3(@types/node@20.12.12)(typescript@5.4.5)):
     dependencies:
-      astro: 4.8.3(@types/node@20.12.8)(typescript@5.4.5)
+      astro: 4.8.3(@types/node@20.12.12)(typescript@5.4.5)
       pathe: 1.1.2
       recast: 0.23.6
 
-  astro@4.5.16(@types/node@20.12.8)(typescript@5.4.5):
+  astro@4.5.16(@types/node@20.12.12)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.7.1
       '@astrojs/internal-helpers': 0.4.0
@@ -4813,8 +4813,8 @@ snapshots:
       tsconfck: 3.0.3(typescript@5.4.5)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.8(@types/node@20.12.8)
-      vitefu: 0.2.5(vite@5.2.8(@types/node@20.12.8))
+      vite: 5.2.8(@types/node@20.12.12)
+      vitefu: 0.2.5(vite@5.2.8(@types/node@20.12.12))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -4832,7 +4832,7 @@ snapshots:
       - terser
       - typescript
 
-  astro@4.8.3(@types/node@20.12.8)(typescript@5.4.5):
+  astro@4.8.3(@types/node@20.12.12)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
@@ -4891,8 +4891,8 @@ snapshots:
       tsconfck: 3.0.3(typescript@5.4.5)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.11(@types/node@20.12.8)
-      vitefu: 0.2.5(vite@5.2.11(@types/node@20.12.8))
+      vite: 5.2.11(@types/node@20.12.12)
+      vitefu: 0.2.5(vite@5.2.11(@types/node@20.12.12))
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.23.8
@@ -7497,31 +7497,31 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@5.2.11(@types/node@20.12.8):
+  vite@5.2.11(@types/node@20.12.12):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.14.1
     optionalDependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.12
       fsevents: 2.3.3
 
-  vite@5.2.8(@types/node@20.12.8):
+  vite@5.2.8(@types/node@20.12.12):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.14.1
     optionalDependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.12
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.2.11(@types/node@20.12.8)):
+  vitefu@0.2.5(vite@5.2.11(@types/node@20.12.12)):
     optionalDependencies:
-      vite: 5.2.11(@types/node@20.12.8)
+      vite: 5.2.11(@types/node@20.12.12)
 
-  vitefu@0.2.5(vite@5.2.8(@types/node@20.12.8)):
+  vitefu@0.2.5(vite@5.2.8(@types/node@20.12.12)):
     optionalDependencies:
-      vite: 5.2.8(@types/node@20.12.8)
+      vite: 5.2.8(@types/node@20.12.12)
 
   volar-service-css@0.0.43(@volar/language-service@2.2.2):
     dependencies:
