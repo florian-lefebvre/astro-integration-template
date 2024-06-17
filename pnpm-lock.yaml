@@ -19,10 +19,10 @@ importers:
     dependencies:
       astro:
         specifier: ^4.10.1
-        version: 4.10.1(@types/node@20.14.2)(typescript@5.4.5)
+        version: 4.10.2(@types/node@20.14.2)(typescript@5.4.5)
       astro-integration-kit:
         specifier: ^0.13.3
-        version: 0.13.3(astro@4.10.1(@types/node@20.14.2)(typescript@5.4.5))
+        version: 0.13.3(astro@4.10.2(@types/node@20.14.2)(typescript@5.4.5))
     devDependencies:
       tsup:
         specifier: ^8.1.0
@@ -32,13 +32,13 @@ importers:
     dependencies:
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.10.1(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.4)
+        version: 5.1.0(astro@4.10.2(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.4)
       astro:
         specifier: ^4.10.1
-        version: 4.10.1(@types/node@20.14.2)(typescript@5.4.5)
+        version: 4.10.2(@types/node@20.14.2)(typescript@5.4.5)
       astro-integration-kit:
         specifier: ^0.13.3
-        version: 0.13.3(astro@4.10.1(@types/node@20.14.2)(typescript@5.4.5))
+        version: 0.13.3(astro@4.10.2(@types/node@20.14.2)(typescript@5.4.5))
       package-name:
         specifier: workspace:*
         version: link:../package
@@ -1045,8 +1045,8 @@ packages:
       '@astrojs/db':
         optional: true
 
-  astro@4.10.1:
-    resolution: {integrity: sha512-7bbnUX1CW+12suz0Do8ef1CihqVjDyUW/H/0piNHZyBE3W/VFt5GP5ZxlPzzJLoGtaXif0aXJ4iPurEem2LpdA==}
+  astro@4.10.2:
+    resolution: {integrity: sha512-SBdkoOanPsxKlKVU4uu/XG0G7NYAFoqmfBtq9SPMJ34B7Hr1MxVdEugERs8IwYN6UaxdDVcqA++9PvH6Onq2cg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3215,9 +3215,9 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@5.1.0(astro@4.10.1(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.4)':
+  '@astrojs/tailwind@5.1.0(astro@4.10.2(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.4)':
     dependencies:
-      astro: 4.10.1(@types/node@20.14.2)(typescript@5.4.5)
+      astro: 4.10.2(@types/node@20.14.2)(typescript@5.4.5)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -4138,13 +4138,13 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  astro-integration-kit@0.13.3(astro@4.10.1(@types/node@20.14.2)(typescript@5.4.5)):
+  astro-integration-kit@0.13.3(astro@4.10.2(@types/node@20.14.2)(typescript@5.4.5)):
     dependencies:
-      astro: 4.10.1(@types/node@20.14.2)(typescript@5.4.5)
+      astro: 4.10.2(@types/node@20.14.2)(typescript@5.4.5)
       pathe: 1.1.2
       recast: 0.23.9
 
-  astro@4.10.1(@types/node@20.14.2)(typescript@5.4.5):
+  astro@4.10.2(@types/node@20.14.2)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
