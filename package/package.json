@@ -33,12 +33,12 @@
 	},
 	"type": "module",
 	"peerDependencies": {
-		"astro": "^4.12.2"
+		"astro": "^4.13.0"
 	},
 	"dependencies": {
-		"astro-integration-kit": "^0.15.0"
+		"astro-integration-kit": "^0.16.0"
 	},
 	"devDependencies": {
-		"tsup": "^8.2.1"
+		"tsup": "^8.2.3"
 	}
 }
