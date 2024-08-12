@@ -33,7 +33,7 @@
 	},
 	"type": "module",
 	"peerDependencies": {
-		"astro": "^4.13.1"
+		"astro": "^4.13.3"
 	},
 	"dependencies": {
 		"astro-integration-kit": "^0.16.0"
