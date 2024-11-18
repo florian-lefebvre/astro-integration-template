@@ -18,11 +18,11 @@ importers:
   package:
     dependencies:
       astro:
-        specifier: ^4.16.10
-        version: 4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
+        specifier: ^4.16.13
+        version: 4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
       astro-integration-kit:
         specifier: ^0.17.0
-        version: 0.17.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))
+        version: 0.17.0(astro@4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -32,19 +32,19 @@ importers:
     dependencies:
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))(tailwindcss@3.4.14)
+        version: 5.1.2(astro@4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))(tailwindcss@3.4.15)
       astro:
-        specifier: ^4.16.10
-        version: 4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
+        specifier: ^4.16.13
+        version: 4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
       astro-integration-kit:
         specifier: ^0.17.0
-        version: 0.17.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))
+        version: 0.17.0(astro@4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))
       package-name:
         specifier: workspace:*
         version: link:../package
       tailwindcss:
-        specifier: ^3.4.14
-        version: 3.4.14
+        specifier: ^3.4.15
+        version: 3.4.15
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
@@ -1015,8 +1015,8 @@ packages:
     peerDependencies:
       astro: ^4.12.0 || ^5.0.0-beta
 
-  astro@4.16.10:
-    resolution: {integrity: sha512-a+nB4bZE50NXHLzVXUHtx/lYct2Aa8kbqZnWNrWqkU97RuhBuWJ5H5/LQbKRnBWGvqChKfJBiMWJe53TY9ieYQ==}
+  astro@4.16.13:
+    resolution: {integrity: sha512-Mtd76+BC0zLWqoXpf9xc731AhdH4MNh5JFHYdLRvSH0Nqn48hA64dPGh/cWsJvh/DZFmC0NTZusM1Qq2gyNaVg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2284,8 +2284,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@3.4.14:
-    resolution: {integrity: sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==}
+  tailwindcss@3.4.15:
+    resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2755,13 +2755,13 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3))(tailwindcss@3.4.15)':
     dependencies:
-      astro: 4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
       autoprefixer: 10.4.20(postcss@8.4.48)
       postcss: 8.4.48
       postcss-load-config: 4.0.2(postcss@8.4.48)
-      tailwindcss: 3.4.14
+      tailwindcss: 3.4.15
     transitivePeerDependencies:
       - ts-node
 
@@ -3627,13 +3627,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-integration-kit@0.17.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)):
+  astro-integration-kit@0.17.0(astro@4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)):
     dependencies:
-      astro: 4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
+      astro: 4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3)
       pathe: 1.1.2
       recast: 0.23.9
 
-  astro@4.16.10(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3):
+  astro@4.16.13(@types/node@22.9.0)(rollup@4.25.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5207,7 +5207,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.14:
+  tailwindcss@3.4.15:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
