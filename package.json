@@ -1,7 +1,7 @@
 {
 	"name": "root",
 	"private": true,
-	"packageManager": "pnpm@9.13.2",
+	"packageManager": "pnpm@9.14.2",
 	"engines": {
 		"node": ">=18.20.3"
 	},
@@ -16,6 +16,6 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@changesets/cli": "^2.27.9"
+		"@changesets/cli": "^2.27.10"
 	}
 }
