@@ -16,4 +16,4 @@
 To create a release:
 - [ ] `pnpm run changeset`
 - [ ] Commit and push
-- [ ] `pnpm release`
+- [ ] `pnpm release` (accepts a `--otp` flag)
