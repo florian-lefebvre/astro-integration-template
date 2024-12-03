@@ -36,23 +36,19 @@ const run = async (command, ...args) => {
 };
 
 const main = async () => {
-	const config = {
+	const { values } = parseArgs({
 		options: {
-		otp: { type: "string", short: "o" },
-		OTP: { type: "string" },
-		},
-	};
-
-	const { values } = parseArgs(config);
-	const otpValue = values.otp || values.OTP;
+			otp: { type: "string" }
+		}
+	});
 	
 	await run("pnpm changeset version");
 	await run("git add .");
 	await run('git commit -m "chore: update version"');
 	await run("git push");
 	await run("pnpm --filter package-name build");
-	if (otpValue) {
-		await run(`pnpm changeset publish --otp=${otpValue}`);
+	if (values.otp) {
+		await run(`pnpm changeset publish --otp=${values.otp}`);
 	} else {
 		await run("pnpm changeset publish");
 	}
