@@ -18,11 +18,11 @@ importers:
   package:
     dependencies:
       astro:
-        specifier: ^4.16.16
-        version: 4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
+        specifier: ^4.16.17
+        version: 4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
       astro-integration-kit:
         specifier: ^0.17.0
-        version: 0.17.0(astro@4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))
+        version: 0.17.0(astro@4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -31,20 +31,20 @@ importers:
   playground:
     dependencies:
       '@astrojs/tailwind':
-        specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))(tailwindcss@3.4.15)
+        specifier: ^5.1.3
+        version: 5.1.3(astro@4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))(tailwindcss@3.4.16)
       astro:
-        specifier: ^4.16.16
-        version: 4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
+        specifier: ^4.16.17
+        version: 4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
       astro-integration-kit:
         specifier: ^0.17.0
-        version: 0.17.0(astro@4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))
+        version: 0.17.0(astro@4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))
       package-name:
         specifier: workspace:*
         version: link:../package
       tailwindcss:
-        specifier: ^3.4.15
-        version: 3.4.15
+        specifier: ^3.4.16
+        version: 3.4.16
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
@@ -97,10 +97,10 @@ packages:
     resolution: {integrity: sha512-Z9IYjuXSArkAUx3N6xj6+Bnvx8OdUSHA8YoOgyepp3+zJmtVYJIl/I18GozdJVW1p5u/CNpl3Km7/gwTJK85cw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
 
-  '@astrojs/tailwind@5.1.2':
-    resolution: {integrity: sha512-IvOF0W/dtHElcXvhrPR35nHmhyV3cfz1EzPitMGtU7sYy9Hci3BNK1To6FWmVuuNKPxza1IgCGetSynJZL7fOg==}
+  '@astrojs/tailwind@5.1.3':
+    resolution: {integrity: sha512-XF7WhXRhqEHGvADqc0kDtF7Yv/g4wAWTaj91jBBTBaYnc4+MQLH94duFfFa4NlTkRG40VQd012eF3MhO3Kk+bg==}
     peerDependencies:
-      astro: ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0
+      astro: ^3.0.0 || ^4.0.0 || ^5.0.0
       tailwindcss: ^3.0.24
 
   '@astrojs/telemetry@3.1.0':
@@ -1015,8 +1015,8 @@ packages:
     peerDependencies:
       astro: ^4.12.0 || ^5.0.0-beta
 
-  astro@4.16.16:
-    resolution: {integrity: sha512-H1CttrV6+JFrDBQx0Mcbq5i5AeLhCbztB786+9wEu3svWL/QPNeCGqF0dgNORAYmP+rODGCPu/y9qKSh87iLuA==}
+  astro@4.16.17:
+    resolution: {integrity: sha512-OuD+BP7U6OqQLKtZ/FJkU2S+TOlifxS/OKUbZOb5p6y+LLBa1J3zHRJrIl7DUSq6eXY+9wSWwbJpD9JS+lqhxA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1604,12 +1604,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  lilconfig@2.1.0:
-    resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
-    engines: {node: '>=10'}
-
-  lilconfig@3.1.2:
-    resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
+  lilconfig@3.1.3:
+    resolution: {integrity: sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==}
     engines: {node: '>=14'}
 
   lines-and-columns@1.2.4:
@@ -2273,8 +2269,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@3.4.15:
-    resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
+  tailwindcss@3.4.16:
+    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2734,13 +2730,13 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))(tailwindcss@3.4.15)':
+  '@astrojs/tailwind@5.1.3(astro@4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2))(tailwindcss@3.4.16)':
     dependencies:
-      astro: 4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
+      astro: 4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
       autoprefixer: 10.4.20(postcss@8.4.49)
       postcss: 8.4.49
       postcss-load-config: 4.0.2(postcss@8.4.49)
-      tailwindcss: 3.4.15
+      tailwindcss: 3.4.16
     transitivePeerDependencies:
       - ts-node
 
@@ -3606,13 +3602,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  astro-integration-kit@0.17.0(astro@4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)):
+  astro-integration-kit@0.17.0(astro@4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)):
     dependencies:
-      astro: 4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
+      astro: 4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2)
       pathe: 1.1.2
       recast: 0.23.9
 
-  astro@4.16.16(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2):
+  astro@4.16.17(@types/node@22.10.1)(rollup@4.28.0)(typescript@5.7.2):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -4288,9 +4284,7 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  lilconfig@2.1.0: {}
-
-  lilconfig@3.1.2: {}
+  lilconfig@3.1.3: {}
 
   lines-and-columns@1.2.4: {}
 
@@ -4813,14 +4807,14 @@ snapshots:
 
   postcss-load-config@4.0.2(postcss@8.4.49):
     dependencies:
-      lilconfig: 3.1.2
+      lilconfig: 3.1.3
       yaml: 2.6.1
     optionalDependencies:
       postcss: 8.4.49
 
   postcss-load-config@6.0.1(jiti@1.21.6)(postcss@8.4.49)(yaml@2.6.1):
     dependencies:
-      lilconfig: 3.1.2
+      lilconfig: 3.1.3
     optionalDependencies:
       jiti: 1.21.6
       postcss: 8.4.49
@@ -5177,7 +5171,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.15:
+  tailwindcss@3.4.16:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -5188,7 +5182,7 @@ snapshots:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       jiti: 1.21.6
-      lilconfig: 2.1.0
+      lilconfig: 3.1.3
       micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
