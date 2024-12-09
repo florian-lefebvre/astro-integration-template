@@ -18,7 +18,7 @@ importers:
   package:
     dependencies:
       astro:
-        specifier: ^5.0.3
+        specifier: ^5.0.0
         version: 5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.28.0)(typescript@5.7.2)(yaml@2.6.1)
       astro-integration-kit:
         specifier: ^0.17.0
