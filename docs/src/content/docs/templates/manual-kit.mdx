@@ -1,3 +1,68 @@
 ---
 title: Manual (AIK)
 ---
+
+import { Steps } from '@astrojs/starlight/components';
+
+This template uses a manual release script and ships with [Astro Integration Kit](https://astro-integration-kit.netlify.app/). Copy it locally by running the following command:
+
+```sh
+pnpm dlx giget@latest gh:florian-lefebvre/astro-integration-template/templates/manual-kit my-integration
+```
+
+## Prerequisites
+
+Make sure you have the [GitHub CLI](https://cli.github.com/) installed, and you're logged in (`gh auth login`)
+
+## Setup
+
+<Steps>
+
+{/* TODO: update TODOs with numbers */}
+
+1. Search for `TODO:` and update them
+
+2. Update all occurences of `package-name` with your package name
+
+3. Add a `LICENSE` at the root (if you do it through GitHub interface, you'll be able to see all licenses and pick the best one for your project)
+
+4. Pick the right NPM tags, see [official docs](https://docs.astro.build/en/reference/publish-to-npm/#categories)
+
+5. Setup your GitHub repository
+
+</Steps>
+
+## Good practises
+
+- Start working on your integration logic
+- Write some docs, either in the README or as a standalone docs website (not included in the template)
+- Write good JSDoc annotations
+- Format and lint with `pnpm lint:fix`
+
+## Releasing
+
+<Steps>
+
+1. Add a changeset and add a meaningful message:
+
+        ```sh
+        pnpm changeset
+        ```
+
+        You can write several changesets if applicable.
+
+2. Commit and push
+
+        ```sh
+        git add .
+        git commit -m "chore: changeset"
+        git push
+        ```
+
+3. Release (accepts a `--otp` flag)
+
+        ```sh
+        pnpm release
+        ```
+
+</Steps>
