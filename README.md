@@ -1,9 +1,9 @@
-# package-name
+# astro-integration-template
 
-TODO:description
+Publish integrations within minutes.
 
-To see how to get started, check out the [package README](./package/README.md)
+Check out the [documentation](https://astro-integration-template.netlify.app).
 
 ## Licensing
 
-[MIT Licensed](./LICENSE). Made with ❤️ by [TODO:user](https://github.com/TODO:github-user).
+[MIT Licensed](./LICENSE). Made with ❤️ by [Florian Lefebvre](https://github.com/florian-lefebvre).
