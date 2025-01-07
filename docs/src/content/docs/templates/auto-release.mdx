@@ -1,0 +1,75 @@
+---
+title: Auto Release (AIK)
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+This template uses Github Actions and ships with [Astro Integration Kit](https://astro-integration-kit.netlify.app/). Copy it locally by running the following command:
+
+```sh
+pnpm dlx giget@latest gh:florian-lefebvre/astro-integration-template/templates/auto-release my-integration
+```
+
+## Prerequisites
+
+Make sure you have the [GitHub CLI](https://cli.github.com/) installed, and you're logged in (`gh auth login`). Additionally, you need an NPM token for publishing. Create an NPM token by visiting your [NPM Access Tokens page](https://www.npmjs.com/settings/tokens) and ensure the token has "publish" permissions.
+
+Store the token as a GitHub secret named `NPM_TOKEN` in your repository. To do this:
+
+1. Go to your GitHub repository.
+2. Navigate to **Settings** > **Secrets and variables** > **Actions**.
+3. Click **New repository secret** and set the name as `NPM_TOKEN` with the value being your generated token.
+
+## Setup
+
+<Steps>
+
+1. Search for `TODO:` and update them.
+
+2. Update all occurrences of `package-name` with your package name.
+
+3. Add a `LICENSE` at the root (if you do it through GitHub interface, you'll be able to see all licenses and pick the best one for your project).
+
+4. Pick the right NPM tags, see [official docs](https://docs.astro.build/en/reference/publish-to-npm/#categories).
+
+5. Setup your GitHub repository.
+
+</Steps>
+
+## Good practises
+
+- Start working on your integration logic.
+- Write some docs, either in the README or as a standalone docs website (not included in the template).
+- Write good JSDoc annotations.
+- Format and lint with `pnpm lint:fix`.
+
+## Releasing
+
+This template uses the GitHub Action for Changesets to automatically open a Pull Request to release a package. Once this Pull Request is merged, the package will be published to NPM.
+
+<Steps>
+
+1. Add a changeset and add a meaningful message:
+
+        ```sh
+        pnpm changeset
+        ```
+
+        You can write several changesets if applicable.
+
+2. Commit and push:
+
+        ```sh
+        git add .
+        git commit -m "chore: changeset"
+        git push
+        ```
+
+3. The Changesets GitHub Action will automatically create a Pull Request for the release.
+
+4. Review and merge the release Pull Request. Ensure you’re ready to publish the changes before merging.
+
+5. The package will be published to NPM automatically using the `NPM_TOKEN` stored in your GitHub secrets.
+
+</Steps>
+
