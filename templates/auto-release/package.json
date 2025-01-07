@@ -10,8 +10,8 @@
 		"playground:dev": "pnpm --filter playground dev",
 		"dev": "pnpm --stream -r -parallel dev",
 		"changeset": "changeset",
-		"ci:version": "changeset version",
-		"ci:publish": "changeset publish",
+		"ci:version": "pnpm changeset version",
+		"ci:publish": "pnpm changeset publish",
 		"lint": "biome check .",
 		"lint:fix": "biome check --apply ."
 	},
