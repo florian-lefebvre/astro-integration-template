@@ -83,4 +83,5 @@ You can now edit files in `package`. Please note that making changes to those fi
 
 ## Acknowledgements
 
-TODO:
+- Created using [astro-integration-template](https://github.com/florian-lefebvre/astro-integration-template).
+- TODO:
