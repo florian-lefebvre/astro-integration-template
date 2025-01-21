@@ -38,10 +38,10 @@ const run = async (command, ...args) => {
 const main = async () => {
 	const { values } = parseArgs({
 		options: {
-			otp: { type: "string" }
-		}
+			otp: { type: "string" },
+		},
 	});
-	
+
 	await run("pnpm changeset version");
 	await run("git add .");
 	await run('git commit -m "chore: update version"');

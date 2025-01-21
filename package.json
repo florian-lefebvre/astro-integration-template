@@ -4,5 +4,12 @@
 	"packageManager": "pnpm@9.15.4",
 	"engines": {
 		"node": ">=18.20.3"
+	},
+	"scripts": {
+		"lint": "biome check .",
+		"lint:fix": "biome check --apply ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
 	}
 }
