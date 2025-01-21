@@ -1,6 +1,6 @@
+import starlight from "@astrojs/starlight";
 // @ts-check
 import { defineConfig } from "astro/config";
-import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,10 +24,7 @@ export default defineConfig({
 				},
 				{
 					label: "Templates",
-					items: [
-						{ label: "Manual (AIK)", link: "/templates/manual-kit/" },
-						{ label: "Github Kit (AIK)", link: "/templates/github-kit/" },
-					],
+					items: [{ label: "Manual (AIK)", link: "/templates/manual-kit/" }],
 				},
 			],
 		}),
