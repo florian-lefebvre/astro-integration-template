@@ -24,7 +24,10 @@ export default defineConfig({
 				},
 				{
 					label: "Templates",
-					items: [{ label: "Manual (AIK)", link: "/templates/manual-kit/" }],
+					items: [
+						{ label: "Manual (AIK)", link: "/templates/manual-kit/" },
+						{ label: "GitHub (AIK)", link: "/templates/github-kit/" },
+					],
 				},
 			],
 		}),
