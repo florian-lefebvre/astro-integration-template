@@ -1,5 +1,5 @@
 ---
-title: Auto Release (AIK)
+title: GitHub (AIK)
 ---
 
 import { Steps } from '@astrojs/starlight/components';
@@ -12,13 +12,7 @@ pnpm dlx giget@latest gh:florian-lefebvre/astro-integration-template/templates/g
 
 ## Prerequisites
 
-Make sure you have the [GitHub CLI](https://cli.github.com/) installed, and you're logged in (`gh auth login`). Additionally, you need an NPM token for publishing. Create an NPM token by visiting your [NPM Access Tokens page](https://www.npmjs.com/settings/tokens) and ensure the token has "publish" permissions.
-
-Store the token as a GitHub secret named `NPM_TOKEN` in your repository. To do this:
-
-1. Go to your GitHub repository.
-2. Navigate to **Settings** > **Secrets and variables** > **Actions**.
-3. Click **New repository secret** and set the name as `NPM_TOKEN` with the value being your generated token.
+Make sure you have a GitHub and NPM account.
 
 ## Setup
 
@@ -35,6 +29,24 @@ Store the token as a GitHub secret named `NPM_TOKEN` in your repository. To do t
 5. Pick the right NPM tags, see [official docs](https://docs.astro.build/en/reference/publish-to-npm/#categories).
 
 6. Setup your GitHub repository.
+
+7. [Generate](https://www.npmjs.com/settings/~/tokens) a **classic automation** NPM token (`NPM_TOKEN`).
+
+8. [Generate](https://github.com/settings/tokens) a **classic** GitHub personal access token with `repo` scope (`COMMIT_TOKEN`)
+
+9. Store those secrets on GitHub:
+
+        <Steps>
+
+        1. Go to your GitHub repository.
+
+        2. Navigate to **Settings** > **Secrets and variables** > **Actions**.
+
+        3. Click **New repository secret** and add `NPM_TOKEN`.
+
+        4. Click **New repository secret** and add `COMMIT_TOKEN`.
+
+        </Steps>
 
 </Steps>
 
