@@ -1,4 +1,5 @@
 import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 import { createResolver } from "astro-integration-kit";
 import { hmrIntegration } from "astro-integration-kit/dev";
 import { defineConfig } from "astro/config";
@@ -14,4 +15,7 @@ export default defineConfig({
 			directory: createResolver(import.meta.url).resolve("../package/dist"),
 		}),
 	],
+	vite: {
+		plugins: [tailwindcss()],
+	},
 });
