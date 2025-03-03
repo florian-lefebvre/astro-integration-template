@@ -1,7 +1,7 @@
 {
 	"name": "@repo/root",
 	"private": true,
-	"packageManager": "pnpm@9.15.5",
+	"packageManager": "pnpm@9.15.6",
 	"engines": {
 		"node": ">=20.18.1"
 	},
