@@ -11,15 +11,15 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.0.14",
-		"astro": "^5.5.2",
+		"@tailwindcss/vite": "^4.0.15",
+		"astro": "^5.5.4",
 		"astro-integration-kit": "^0.18.0",
 		"package-name": "workspace:*",
-		"tailwindcss": "^4.0.14"
+		"tailwindcss": "^4.0.15"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.4",
-		"@types/node": "^22.13.10",
+		"@types/node": "^22.13.12",
 		"typescript": "^5.8.2"
 	}
 }
