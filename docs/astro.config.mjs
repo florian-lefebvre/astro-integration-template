@@ -12,7 +12,7 @@ export default defineConfig({
 				src: "./src/assets/houston.webp",
 			},
 			social: {
-				github: "https://github.com/florian-lefebvre/astro-integration-kit",
+				github: "https://github.com/florian-lefebvre/astro-integration-template",
 			},
 			sidebar: [
 				{
