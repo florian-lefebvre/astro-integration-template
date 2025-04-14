@@ -11,9 +11,13 @@ export default defineConfig({
 			logo: {
 				src: "./src/assets/houston.webp",
 			},
-			social: {
-				github: "https://github.com/florian-lefebvre/astro-integration-template",
-			},
+			social: [
+				{
+					icon: "github",
+					label: "GitHub",
+					href: "https://github.com/florian-lefebvre/astro-integration-template",
+				},
+			],
 			sidebar: [
 				{
 					label: "Get Started",
