@@ -15,11 +15,11 @@ importers:
   docs:
     dependencies:
       '@astrojs/starlight':
-        specifier: 0.34.2
-        version: 0.34.2(astro@5.7.10(rollup@4.40.0)(typescript@5.8.3))
+        specifier: 0.34.3
+        version: 0.34.3(astro@5.7.12(rollup@4.40.0)(typescript@5.8.3))
       astro:
-        specifier: 5.7.10
-        version: 5.7.10(rollup@4.40.0)(typescript@5.8.3)
+        specifier: 5.7.12
+        version: 5.7.12(rollup@4.40.0)(typescript@5.8.3)
       sharp:
         specifier: 0.34.1
         version: 0.34.1
@@ -48,8 +48,8 @@ packages:
   '@astrojs/sitemap@3.3.0':
     resolution: {integrity: sha512-nYE4lKQtk+Kbrw/w0G0TTgT724co0jUsU4tPlHY9au5HmTBKbwiCLwO/15b1/y13aZ4Kr9ZbMeMHlXuwn0ty4Q==}
 
-  '@astrojs/starlight@0.34.2':
-    resolution: {integrity: sha512-/XwBXQ4ZyQBEETZIPw2pa+UsKawkpRVO7CF6QVpOmteGfUxCrsD3n26G0OsnWHh0Gfo67QkAqM0FsGmDuNUVHw==}
+  '@astrojs/starlight@0.34.3':
+    resolution: {integrity: sha512-MAuD3NF+E+QXJJuVKofoR6xcPTP4BJmYWeOBd03udVdubNGVnPnSWVZAi+ZtnTofES4+mJdp8BNGf+ubUxkiiA==}
     peerDependencies:
       astro: ^5.5.0
 
@@ -697,6 +697,9 @@ packages:
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
+  '@types/fontkit@2.0.8':
+    resolution: {integrity: sha512-wN+8bYxIpJf+5oZdrdtaX04qUuWHcKxcDEgRS9Qm9ZClSHjzEn13SxUC+5eRM+4yXIeTYk8mTzLAWGF64847ew==}
+
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
@@ -781,8 +784,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro@5.7.10:
-    resolution: {integrity: sha512-9TQcFZqP2w6//JXXUHfw8/5PX7KUx9EkG5O3m+hISuyeUztvjY1q5+p7+C5HiXyg24Zs3KkpieoL5BGRXGCAGA==}
+  astro@5.7.12:
+    resolution: {integrity: sha512-UQOItiZz2hcv9PlHTQ6dNqFDIVNPnmwk6eyAjJqPE9O8EDHZK2JKtTRD0CBFN2Uqr0RE0TWP2gqDpLfsa5dJEA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1041,6 +1044,9 @@ packages:
   flattie@1.1.1:
     resolution: {integrity: sha512-9UbaD6XdAL97+k/n+N7JwX46K/M6Zc6KcFYskrYL8wbBV/Uyk0CTAMY0VT+qiK5PM7AIc9aTWYtq65U7T+aCNQ==}
     engines: {node: '>=8'}
+
+  fontace@0.3.0:
+    resolution: {integrity: sha512-czoqATrcnxgWb/nAkfyIrRp6Q8biYj7nGnL6zfhTcX+JKKpWHFBnb8uNMw/kZr7u++3Y3wYSYoZgHkCcsuBpBg==}
 
   fontkit@2.0.4:
     resolution: {integrity: sha512-syetQadaUEDNdxdugga9CpEYVaQIxOwk7GlwZWWZ19//qW4zE5bknOKeMBDYAASwnpaSHKJITRLMF9m1fp3s6g==}
@@ -1730,8 +1736,8 @@ packages:
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
 
-  unifont@0.4.1:
-    resolution: {integrity: sha512-zKSY9qO8svWYns+FGKjyVdLvpGPwqmsCjeJLN1xndMiqxHWBAhoWDMYMG960MxeV48clBmG+fDP59dHY1VoZvg==}
+  unifont@0.5.0:
+    resolution: {integrity: sha512-4DueXMP5Hy4n607sh+vJ+rajoLu778aU3GzqeTCqsD/EaUcvqZT9wPC8kgK6Vjh22ZskrxyRCR71FwNOaYn6jA==}
 
   unist-util-find-after@5.0.0:
     resolution: {integrity: sha512-amQa0Ep2m6hE2g72AugUItjbuM8X8cGQnFoHk0pGfrFeT9GZhzN5SW8nRsiGKK7Aif4CrACPENkA6P/Lw6fHGQ==}
@@ -1971,12 +1977,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.4(astro@5.7.10(rollup@4.40.0)(typescript@5.8.3))':
+  '@astrojs/mdx@4.2.4(astro@5.7.12(rollup@4.40.0)(typescript@5.8.3))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.7.10(rollup@4.40.0)(typescript@5.8.3)
+      astro: 5.7.12(rollup@4.40.0)(typescript@5.8.3)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -2000,17 +2006,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.3
 
-  '@astrojs/starlight@0.34.2(astro@5.7.10(rollup@4.40.0)(typescript@5.8.3))':
+  '@astrojs/starlight@0.34.3(astro@5.7.12(rollup@4.40.0)(typescript@5.8.3))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/mdx': 4.2.4(astro@5.7.10(rollup@4.40.0)(typescript@5.8.3))
+      '@astrojs/mdx': 4.2.4(astro@5.7.12(rollup@4.40.0)(typescript@5.8.3))
       '@astrojs/sitemap': 3.3.0
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.7.10(rollup@4.40.0)(typescript@5.8.3)
-      astro-expressive-code: 0.41.1(astro@5.7.10(rollup@4.40.0)(typescript@5.8.3))
+      astro: 5.7.12(rollup@4.40.0)(typescript@5.8.3)
+      astro-expressive-code: 0.41.1(astro@5.7.12(rollup@4.40.0)(typescript@5.8.3))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -2531,6 +2537,10 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
+  '@types/fontkit@2.0.8':
+    dependencies:
+      '@types/node': 17.0.45
+
   '@types/hast@3.0.4':
     dependencies:
       '@types/unist': 3.0.3
@@ -2592,12 +2602,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.1(astro@5.7.10(rollup@4.40.0)(typescript@5.8.3)):
+  astro-expressive-code@0.41.1(astro@5.7.12(rollup@4.40.0)(typescript@5.8.3)):
     dependencies:
-      astro: 5.7.10(rollup@4.40.0)(typescript@5.8.3)
+      astro: 5.7.12(rollup@4.40.0)(typescript@5.8.3)
       rehype-expressive-code: 0.41.1
 
-  astro@5.7.10(rollup@4.40.0)(typescript@5.8.3):
+  astro@5.7.12(rollup@4.40.0)(typescript@5.8.3):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -2625,6 +2635,7 @@ snapshots:
       esbuild: 0.25.2
       estree-walker: 3.0.3
       flattie: 1.1.1
+      fontace: 0.3.0
       github-slugger: 2.0.0
       html-escaper: 3.0.3
       http-cache-semantics: 4.1.1
@@ -2646,7 +2657,7 @@ snapshots:
       tinyglobby: 0.2.13
       tsconfck: 3.1.5(typescript@5.8.3)
       ultrahtml: 1.6.0
-      unifont: 0.4.1
+      unifont: 0.5.0
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
@@ -2944,6 +2955,11 @@ snapshots:
       picomatch: 4.0.2
 
   flattie@1.1.1: {}
+
+  fontace@0.3.0:
+    dependencies:
+      '@types/fontkit': 2.0.8
+      fontkit: 2.0.4
 
   fontkit@2.0.4:
     dependencies:
@@ -4193,7 +4209,7 @@ snapshots:
       trough: 2.2.0
       vfile: 6.0.3
 
-  unifont@0.4.1:
+  unifont@0.5.0:
     dependencies:
       css-tree: 3.1.0
       ohash: 2.0.11
