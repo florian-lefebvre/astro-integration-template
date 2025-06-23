@@ -1,15 +1,15 @@
 {
 	"name": "@repo/root",
 	"private": true,
-	"packageManager": "pnpm@9.15.9",
+	"packageManager": "pnpm@10.12.2",
 	"engines": {
 		"node": ">=20.18.1"
 	},
 	"scripts": {
 		"lint": "biome check .",
-		"lint:fix": "biome check --apply ."
+		"lint:fix": "biome check --write"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4"
+		"@biomejs/biome": "2.0.4"
 	}
 }
