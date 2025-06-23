@@ -13,7 +13,7 @@
 		"ci:version": "pnpm exec changeset version && pnpm install --no-frozen-lockfile && pnpm dedupe",
 		"ci:publish": "pnpm exec changeset publish && git push --follow-tags",
 		"lint": "biome check .",
-		"lint:fix": "biome check --apply ."
+		"lint:fix": "biome check --write"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.0.4",

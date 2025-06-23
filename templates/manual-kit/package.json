@@ -12,7 +12,7 @@
 		"changeset": "changeset",
 		"release": "node scripts/release.mjs",
 		"lint": "biome check .",
-		"lint:fix": "biome check --apply ."
+		"lint:fix": "biome check --write"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.0.4",
