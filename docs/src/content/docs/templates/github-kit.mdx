@@ -30,23 +30,7 @@ Make sure you have a GitHub and NPM account.
 
 6. Setup your GitHub repository.
 
-7. [Generate](https://www.npmjs.com/settings/~/tokens) a **classic automation** NPM token (`NPM_TOKEN`).
-
-8. [Generate](https://github.com/settings/tokens) a **classic** GitHub personal access token with `repo` scope (`COMMIT_TOKEN`)
-
-9. Store those secrets on GitHub:
-
-        <Steps>
-
-        1. Go to your GitHub repository.
-
-        2. Navigate to **Settings** > **Secrets and variables** > **Actions**.
-
-        3. Click **New repository secret** and add `NPM_TOKEN`.
-
-        4. Click **New repository secret** and add `COMMIT_TOKEN`.
-
-        </Steps>
+7. Follow the [the `e18e` publishing guide](https://e18e.dev/docs/publishing.html). The release workflow is properly configured for OIDC publishing and is called `release.yml`
 
 </Steps>
 
@@ -83,7 +67,7 @@ This template uses the GitHub Action for Changesets to automatically open a Pull
 
 4. Review and merge the release Pull Request. Ensure you’re ready to publish the changes before merging.
 
-5. The package will be published to NPM automatically using the `NPM_TOKEN` stored in your GitHub secrets.
+5. The package will be published to NPM automatically throuh OIDC.
 
 </Steps>
 
