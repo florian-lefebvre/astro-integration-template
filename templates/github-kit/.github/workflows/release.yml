@@ -33,7 +33,7 @@ jobs:
         run: corepack enable && pnpm -v
 
       - name: Setup Node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: 20.18.0
           cache: pnpm
