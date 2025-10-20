@@ -10,7 +10,7 @@ export default defineConfig({
 	integrations: [
 		packageName(),
 		hmrIntegration({
-			directory: createResolver(import.meta.url).resolve("../package/dist"),
+			directory: createResolver(import.meta.url).resolve("../packages/package-name/dist"),
 		}),
 	],
 	vite: {
