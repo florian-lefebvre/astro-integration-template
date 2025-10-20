@@ -10,14 +10,14 @@
 		"playground:dev": "pnpm --filter playground dev",
 		"dev": "pnpm --stream -r -parallel dev",
 		"changeset": "changeset",
-		"ci:version": "pnpm exec changeset version && pnpm install --no-frozen-lockfile && pnpm dedupe",
-		"ci:publish": "pnpm exec changeset publish && git push --follow-tags",
 		"lint": "biome check .",
-		"lint:fix": "biome check --write"
+		"lint:fix": "biome check --write",
+		"ci-version": "changeset version && pnpm install --no-frozen-lockfile",
+		"ci-publish": "changeset publish"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.6",
-		"@changesets/cli": "^2.29.7",
-		"@changesets/changelog-github": "^0.5.1"
+		"@changesets/cli": "2.29.7",
+		"@changesets/changelog-github": "0.5.1"
 	}
 }

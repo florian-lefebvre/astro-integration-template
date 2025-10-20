@@ -1,61 +1,38 @@
 name: Release
-
+permissions: {}
 on:
   push:
     branches:
       - main
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - labeled
-
-defaults:
-  run:
-    shell: bash
-
-env:
-  FORCE_COLOR: true
 
 jobs:
-  changelog:
+  release:
+    name: Release
+    if: ${{ github.repository_owner == 'your-name' }}
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' }}
     permissions:
       contents: write
+      pull-requests: write
       id-token: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Setup PNPM
-        run: corepack enable && pnpm -v
-
-      - name: Setup Node
-        uses: actions/setup-node@v6
+      - uses: actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493
         with:
-          node-version: 20.18.0
-          cache: pnpm
-          registry-url: "https://registry.npmjs.org"
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build
-        run: pnpm --filter package-name build
-
-      - name: Create Release Pull Request or Publish
-        id: changesets
-        if: ${{ github.event_name == 'push' }}
-        uses: changesets/action@v1
+          # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061
+      - uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903
         with:
-          version: pnpm run ci:version
-          publish: pnpm run ci:publish
-          commit: "[ci] release"
-          title: "[ci] release"
+          node-version: 24.10.0
+          cache: 'pnpm'
+      - run: pnpm install
+      - name: Create Release Pull Request
+        uses: changesets/action@e0145edc7d9d8679003495b11f87bd8ef63c0cba
+        with:
+          version: pnpm ci-version
+          publish: pnpm ci-publish
+          commit: '[ci] release'
+          title: '[ci] release'
         env:
-          # Needs the repo permissions
-          GITHUB_TOKEN: ${{ secrets.COMMIT_TOKEN }}
-          # Needs access to publish to npm
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: "" # See https://github.com/changesets/changesets/issues/1152#issuecomment-3190884868
