@@ -29,7 +29,7 @@ export default defineConfig({
         {
           label: "Templates",
           items: [
-            { label: "GitHub (AIK)", link: "/templates/github-kit/" },
+            { label: "GitHub", link: "/templates/github/" },
           ],
         },
       ],
