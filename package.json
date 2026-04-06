@@ -1,7 +1,7 @@
 {
 	"name": "@repo/root",
 	"private": true,
-	"packageManager": "pnpm@10.32.1",
+	"packageManager": "pnpm@10.33.0",
 	"engines": {
 		"node": ">=22.12.0"
 	},
@@ -10,6 +10,6 @@
 		"lint:fix": "biome check --write"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.4.8"
+		"@biomejs/biome": "2.4.10"
 	}
 }
