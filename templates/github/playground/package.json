@@ -11,14 +11,14 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "4.2.4",
-		"astro": "6.2.1",
+		"@tailwindcss/vite": "4.3.0",
+		"astro": "6.3.1",
 		"package-name": "workspace:*",
-		"tailwindcss": "4.2.4"
+		"tailwindcss": "4.3.0"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.9",
-		"@types/node": "24.12.2",
+		"@types/node": "24.12.3",
 		"typescript": "6.0.3"
 	}
 }
