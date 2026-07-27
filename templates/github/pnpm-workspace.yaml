@@ -3,3 +3,4 @@ packages:
   - playground
 allowBuilds:
   esbuild: false
+  sharp: false
