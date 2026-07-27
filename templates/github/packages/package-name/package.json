@@ -14,8 +14,8 @@
 		"dist"
 	],
 	"scripts": {
-		"dev": "tsup --watch",
-		"build": "tsup",
+		"dev": "tsdown --watch",
+		"build": "tsdown",
 		"prepublishOnly": "pnpm build"
 	},
 	"keywords": [
@@ -37,6 +37,6 @@
 		"astro": "^6.0.0"
 	},
 	"devDependencies": {
-		"tsup": "8.5.1"
+		"tsdown": "0.22.14"
 	}
 }
