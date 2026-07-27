@@ -13,6 +13,13 @@
 			"matchPackagePatterns": ["*"],
 			"schedule": ["before 4am on Monday"],
 			"rangeStrategy": "bump"
+		},
+		{
+			"groupName": "typescript",
+			"groupSlug": "typescript",
+			"matchPackageNames": ["typescript"],
+			"schedule": ["before 4am on Monday"],
+			"rangeStrategy": "bump"
 		}
 	],
 	"ignoreDeps": ["node"]
