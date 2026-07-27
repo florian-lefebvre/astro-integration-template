@@ -6,10 +6,10 @@ export default defineConfig({
   format: ["esm"],
   target: "node22",
   unbundle: true,
+  fixedExtension: false,
   dts: true,
   sourcemap: false,
   clean: true,
-  splitting: false,
   minify: false,
   tsconfig: "tsconfig.json",
   deps: {
