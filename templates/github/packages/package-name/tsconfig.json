@@ -1,7 +1,7 @@
 {
 	"extends": "astro/tsconfigs/strictest",
 	"compilerOptions": {
-		"module": "Node16",
+		"module": "nodenext",
 		"moduleResolution": "Node16",
 		"jsx": "preserve"
 	},
