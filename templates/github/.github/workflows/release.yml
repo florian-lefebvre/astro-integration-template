@@ -29,10 +29,10 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@198f833dd7d863100ea6e28967bc9a9fdefadb0a # v2.1.0
         with:
-          version: pnpm ci-version
-          publish: pnpm ci-publish
-          commit: '[ci] release'
-          title: '[ci] release'
+          version-script: pnpm ci-version
+          publish-script: pnpm ci-publish
+          commit-message: '[ci] release'
+          pr-title: '[ci] release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: "" # See https://github.com/changesets/changesets/issues/1152#issuecomment-3190884868
