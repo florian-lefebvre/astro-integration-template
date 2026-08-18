@@ -3,7 +3,7 @@
 	"changelog": [
 		"@changesets/changelog-github",
 		{
-			"repo": "<repo>/<org>"
+			"repo": "<org>/<repo>"
 		}
 	],
 	"access": "public"
