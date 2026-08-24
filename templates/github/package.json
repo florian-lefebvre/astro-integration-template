@@ -1,7 +1,7 @@
 {
 	"name": "root",
 	"private": true,
-	"packageManager": "pnpm@11.22.0",
+	"packageManager": "pnpm@11.23.0",
 	"engines": {
 		"node": ">=22.12.0"
 	},
@@ -16,8 +16,8 @@
 		"ci-publish": "changeset publish"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.8",
-		"@changesets/cli": "3.0.0",
+		"@biomejs/biome": "2.5.10",
+		"@changesets/cli": "3.0.1",
 		"@changesets/changelog-github": "1.0.0"
 	}
 }
