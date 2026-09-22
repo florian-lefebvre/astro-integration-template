@@ -3,7 +3,8 @@
 	"extends": ["config:recommended", ":disablePeerDependencies"],
 	"dependencyDashboard": true,
 	"lockFileMaintenance": {
-		"enabled": true
+		"enabled": true,
+		"schedule": ["* * 1 * *"]
 	},
 	"schedule": ["* * 1 * *"],
 	"postUpdateOptions": ["pnpmDedupe"],
@@ -12,7 +13,6 @@
 			"groupName": "all dependencies",
 			"groupSlug": "all",
 			"matchPackagePatterns": ["*"],
-			"schedule": ["before 4am on Monday"],
 			"rangeStrategy": "bump"
 		},
 		{
