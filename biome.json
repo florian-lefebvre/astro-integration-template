@@ -29,6 +29,6 @@
 		}
 	},
 	"files": {
-		"includes": ["**", "!**/dist", "!**/.astro"]
+		"includes": ["**", "!**/dist", "!**/.astro", "!**/CHANGELOG.md"]
 	}
 }
